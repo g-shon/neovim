@@ -42,5 +42,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     Plug 'xolox/vim-notes'
     Plug 'xolox/vim-misc'
+    Plug 'itchyny/calendar.vim'
 
 call plug#end()

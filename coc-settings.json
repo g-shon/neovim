@@ -7,7 +7,7 @@
       "filetypes": ["d"]
     },
    "zls" : {
-       "command": "/usr/local/bin/zls",
+       "command": "/usr/bin/zls",
        "filetypes": ["zig"]
    }
   },
