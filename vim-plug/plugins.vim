@@ -43,5 +43,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'xolox/vim-notes'
     Plug 'xolox/vim-misc'
     Plug 'itchyny/calendar.vim'
+    Plug 'puremourning/vimspector'
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+    Plug 'morhetz/gruvbox'
+    Plug 'crispydrone/vim-tasks'
 
 call plug#end()

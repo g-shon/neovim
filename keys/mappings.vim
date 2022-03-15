@@ -40,8 +40,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
-nmap <F6> :NERDTreeToggle<CR>
-nmap <F5> :Files<CR>
+nmap <C-n> :NERDTreeToggle<CR>
+nmap <Leader><Leader> :Files<CR>
 nnoremap S :%s///g<Left><Left><Left>
+nmap <C-h><C-t> :split term://zsh <CR>cd $VIM_DIR<CR>
+nmap <C-v><C-t> :vsplit term://zsh <CR>cd $VIM_DIR<CR>
+nmap <C-t><C-t> :tabe term://zsh <CR>cd $VIM_DIR<CR>
