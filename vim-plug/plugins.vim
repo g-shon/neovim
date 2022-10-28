@@ -47,5 +47,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'morhetz/gruvbox'
     Plug 'crispydrone/vim-tasks'
+    Plug 'fratajczak/one-monokai-vim'
+    Plug 'EdenEast/nightfox.nvim'
+    Plug 'mesonbuild/meson'
+    Plug 'nvim-lualine/lualine.nvim'
+    Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
