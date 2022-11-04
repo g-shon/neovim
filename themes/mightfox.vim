@@ -1,1 +1,1 @@
-colorscheme nordfox
+colorscheme  nordfox

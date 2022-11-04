@@ -52,5 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mesonbuild/meson'
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'nanozuki/tabby.nvim'
+    Plug 'feline-nvim/feline.nvim'
 
 call plug#end()
