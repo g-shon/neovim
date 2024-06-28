@@ -54,5 +54,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'nanozuki/tabby.nvim'
     Plug 'feline-nvim/feline.nvim'
+    Plug 'Verf/deepwhite.nvim'
+    Plug 'catppuccin/nvim'
+    Plug 'kdheepak/lazygit.nvim'
+    Plug 'joerdav/templ.vim'
 
 call plug#end()

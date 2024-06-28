@@ -9,7 +9,16 @@
    "zls" : {
        "command": "/usr/bin/zls",
        "filetypes": ["zig"]
+   },
+   "ols" : {
+       "command": "/usr/bin/ols",
+       "filetypes": ["odin"]
    }
+  // ,
+  // "templ" : {
+  //     "command": "/home/gershon/go/bin/templ",
+  //     "filetypes": ["templ"]
+  // }
   },
   "clangd.path": "/usr/bin/clangd"
 }
